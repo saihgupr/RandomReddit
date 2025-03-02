@@ -2,58 +2,6 @@
 
 <p>RandomReddit is a Python script that opens random subreddits from the list maintained at r/ListOfSubreddits. It features smart tab management for Arc browser on macOS (opening in current tab if already on Reddit, new tab otherwise), caching of subreddit lists, and fallback support for default browsers.</p>
 
-<h2>Features</h2>
-
-<ul>
-    <li>Fetches subreddit list from r/ListOfSubreddits wiki page</li>
-    <li>Caches subreddit list locally for 24 hours to reduce API calls</li>
-    <li>Smart tab management for Arc browser (macOS):
-        <ul>
-            <li>Uses current tab if already on Reddit</li>
-            <li>Creates new tab if current tab is not on Reddit</li>
-        </ul>
-    </li>
-    <li>Fallback to default browser if Arc is unavailable</li>
-    <li>Opens top posts (all time) for selected subreddit</li>
-    <li>Includes a fallback list of popular subreddits if wiki fetch fails</li>
-</ul>
-
-<h2>Requirements</h2>
-
-<ul>
-    <li>Python 3.6+</li>
-    <li>macOS (for Arc browser support)</li>
-    <li>Arc browser (optional, for smart tab management)</li>
-    <li>Standard Python libraries:
-        <ul>
-            <li><code>random</code></li>
-            <li><code>webbrowser</code></li>
-            <li><code>requests</code></li>
-            <li><code>time</code></li>
-            <li><code>json</code></li>
-            <li><code>os</code></li>
-            <li><code>subprocess</code></li>
-            <li><code>datetime</code></li>
-            <li><code>re</code></li>
-        </ul>
-    </li>
-</ul>
-
-<p>No external dependencies required!</p>
-
-<h2>Installation</h2>
-
-<ol>
-    <li>Clone the repository:
-        <pre><code class="language-bash">git clone https://github.com/yourusername/RandomReddit.git
-cd RandomReddit</code></pre>
-    </li>
-    <li>Ensure you have Python 3.6 or later installed:
-        <pre><code class="language-bash">python --version</code></pre>
-    </li>
-    <li>(Optional) For Arc browser support, ensure Arc is installed on your macOS system.</li>
-</ol>
-
 <h2>Usage</h2>
 
 <p>Run the script:</p>
