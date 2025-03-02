@@ -44,33 +44,9 @@
     <li>Cache file (<code>subreddits_cache.json</code>) is created in the script's directory</li>
 </ul>
 
-<h2>Contributing</h2>
-
-<ol>
-    <li>Fork the repository</li>
-    <li>Create a feature branch:
-        <pre><code class="language-bash">git checkout -b feature/new-feature</code></pre>
-    </li>
-    <li>Commit changes:
-        <pre><code class="language-bash">git commit -m 'Add new feature'</code></pre>
-    </li>
-    <li>Push to the branch:
-        <pre><code class="language-bash">git push origin feature/new-feature</code></pre>
-    </li>
-    <li>Open a Pull Request</li>
-</ol>
-
 <h2>License</h2>
 
 <p>MIT License - see <a href="LICENSE">LICENSE</a> file for details</p>
-
-<h2>Acknowledgments</h2>
-
-<ul>
-    <li>Subreddit list provided by r/ListOfSubreddits community</li>
-    <li>AppleScript integration for Arc browser support</li>
-    <li>Standard Python libraries for cross-platform compatibility</li>
-</ul>
 
 <h2>Issues</h2>
 
