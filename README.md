@@ -1,6 +1,6 @@
 <h1>RandomReddit</h1>
 
-<p>RandomReddit is a Python script that opens random subreddits from the list maintained at r/ListOfSubreddits. It features smart tab management for Arc browser on macOS (opening in current tab if already on Reddit, new tab otherwise), caching of subreddit lists, and fallback support for default browsers.</p>
+<p>RandomReddit is a Python script that opens random subreddits from the list maintained at r/ListOfSubreddits. It features smart tab management for your browser on macOS (opening in current tab if already on Reddit, new tab otherwise), caching of subreddit lists, and fallback support for default browsers.</p>
 
 <h2>Usage</h2>
 
@@ -12,7 +12,7 @@
     <li>Check for cached subreddit list</li>
     <li>If cache is expired or missing, fetch from r/ListOfSubreddits wiki</li>
     <li>Select a random subreddit</li>
-    <li>Open in Arc browser (if available) or default browser</li>
+    <li>Open in your browser (if available) or default browser</li>
     <li>Display the opened subreddit in the console</li>
 </ol>
 
@@ -23,7 +23,7 @@
     <li><strong>Caching</strong>: Stores subreddit list in <code>subreddits_cache.json</code> for 24 hours</li>
     <li><strong>Browser Management</strong>:
         <ul>
-            <li>On macOS with Arc: Uses AppleScript to check current tab URL
+            <li>On macOS with your Browswer: Uses AppleScript to check current tab URL
                 <ul>
                     <li>If on Reddit: Reuses current tab</li>
                     <li>If not on Reddit: Creates new tab</li>
