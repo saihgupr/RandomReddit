@@ -39,7 +39,6 @@
 
 <ul>
     <li>The script requires an internet connection for initial subreddit list fetch</li>
-    <li>Arc browser support is macOS-only; other systems use default browser</li>
     <li>The subreddit list from r/ListOfSubreddits may include NSFW or inactive subreddits (no filtering applied)</li>
     <li>Cache file (<code>subreddits_cache.json</code>) is created in the script's directory</li>
 </ul>
