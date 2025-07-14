@@ -1,10 +1,10 @@
-<h1>RandomReddit</h1>
+<h1>RandomReddit Chrome Extension</h1>
 
-<p>RandomReddit is a Python script, or Chrome Extension, that opens random subreddits from the list maintained at r/ListOfSubreddits. It features smart tab management for your browser on macOS (opening in current tab if already on Reddit, new tab otherwise), caching of subreddit lists, and fallback support for default browsers.</p>
+<p>RandomReddit is a Chrome Extension that opens random subreddits from the list maintained at r/ListOfSubreddits. In a normal window, it opens a random SFW subreddit. In an Incognito window, it opens a random NSFW subreddit.</p>
 
-<h2>Usage</h2>
+<h2>Optional Usage</h2>
 
-<p>Run the script:</p>
+<p>Run the python script:</p>
 <pre><code class="language-bash">python random_reddit.py</code></pre>
 
 <p>The script will:</p>
