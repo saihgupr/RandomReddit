@@ -1,6 +1,6 @@
 <h1>RandomReddit</h1>
 
-<p>RandomReddit is a Python script that opens random subreddits from the list maintained at r/ListOfSubreddits. It features smart tab management for your browser on macOS (opening in current tab if already on Reddit, new tab otherwise), caching of subreddit lists, and fallback support for default browsers.</p>
+<p>RandomReddit is a Python script, or Chrome Extension, that opens random subreddits from the list maintained at r/ListOfSubreddits. It features smart tab management for your browser on macOS (opening in current tab if already on Reddit, new tab otherwise), caching of subreddit lists, and fallback support for default browsers.</p>
 
 <h2>Usage</h2>
 
