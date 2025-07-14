@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Random Reddit",
+  "version": "1.3",
+  "description": "Opens a random SFW or NSFW subreddit depending on the window mode.",
+  "permissions": [
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.reddit.com/"
+  ],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "incognito": "split"
+}
